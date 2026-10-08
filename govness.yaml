@@ -1,0 +1,18 @@
+# Fictional demo block: see README.md.
+schema_version: 1
+id: "pan-african-digital-cooperation.cross-border-trade-docs"
+name: "Cross-border trade documents connector"
+type: "connector"
+version: "1.2.0"
+summary: "Connector for exchanging certificates of origin and trade documents between participating customs systems."
+description: "Implements the shared document schema used by participating customs administrations, so agents can check a certificate's status across borders."
+publisher:
+  environment: "pan-african-digital-cooperation"
+  body: "Pan-African Digital Cooperation Facility"
+languages: ["en", "fr"]
+license: "Apache-2.0"
+interfaces:
+  protocol: "openapi"
+links:
+  repo: "https://github.com/govness-demo/cross-border-trade-docs"
+domains: ["business-and-trade", "tax-and-customs", "international-cooperation"]
